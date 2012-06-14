@@ -1,13 +1,13 @@
 %define		pkg	tar
 Summary:	tar for node
 Name:		nodejs-%{pkg}
-Version:	0.1.12
+Version:	0.1.13
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/tar
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	21028d3fe9f30f6a671fdf11b046fa7a
+# Source0-md5:	99ecff7b4c9975625501d03c9c019c3a
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:	nodejs-block-stream
