@@ -1,18 +1,18 @@
 %define		pkg	tar
 Summary:	tar for node
 Name:		nodejs-%{pkg}
-Version:	0.1.19
+Version:	0.1.20
 Release:	1
 License:	MIT
 Group:		Development/Libraries
-URL:		https://github.com/isaacs/tar
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	66b9f13c53386cc9c5da9b591780862e
+# Source0-md5:	a4f16639356113a6bccc94512b50733c
+URL:		https://github.com/isaacs/tar
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:	nodejs-block-stream
-Requires:	nodejs-fstream < 0.2.0
-Requires:	nodejs-fstream >= 0.1.8
+Requires:	nodejs-fstream < 0.2
+Requires:	nodejs-fstream >= 0.1.28
 Requires:	nodejs-inherits < 3
 Requires:	nodejs-inherits >= 2
 BuildArch:	noarch
